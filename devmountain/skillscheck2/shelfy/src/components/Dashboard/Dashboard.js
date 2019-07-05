@@ -1,8 +1,11 @@
 import React, { Component } from "react";
+import './Dashboard.css'   
+
+
 
 
 export default class Dashboard extends Component {
-    
+ 
 
  
 
@@ -18,7 +21,7 @@ export default class Dashboard extends Component {
             
             <div key={i}
             className="product-container">
-              <img src={product.img_url} alt="" />
+              <img className='img' src={product.img_url} alt="" />
               <div className="product-box">
                 <p>{product.product_name}</p>
                 <p>{product.price}</p>
